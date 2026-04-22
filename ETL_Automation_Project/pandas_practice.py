@@ -27,3 +27,7 @@ df2 = pd.read_sql("select * from employees",conn)
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 print(df2.to_string(index=False))
+
+df=pd.read_csv('C:/Users/amitk/PycharmProjects/ETL_Automation_Project/emp.csv')
+print(df)
+print(type(df))
